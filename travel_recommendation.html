@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="travel_recommendation.css">
+    <title>Travel Bloom</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo-container">
+            <img src="img/download-r.png" alt="">
+            <span class="logo-text">TravelBloom</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home-section">Home</a></li>
+            <li><a href="#about-section">About Us</a></li>
+            <li><a href="#contact-section">Contact Us</a></li>
+        </ul>
+        <div class="search-container">
+            <div class="search-wrapper">
+                <input type="text" class="search-bar" placeholder="Enter a destination or keyword" id="searchInput">
+                <div class="search-icon">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M21 21L16.514 16.506L21 21ZM19 10.5C19 15.194 15.194 19 10.5 19C5.806 19 2 15.194 2 10.5C2 5.806 5.806 2 10.5 2C15.194 2 19 5.806 19 10.5Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+            </div>
+            <button class="search-btn">Search</button>
+            <button class="clear-btn">Clear</button>
+        </div>
+    </nav>
+    <div class="search-message" id="searchMessage">
+        Please enter a valid search query.
+    </div>
+
+    <section class="hero-section" id="home-section">
+        <div class="hero-overlay"></div>
+        <div class="line"></div>
+        <div class="social-sidebar">
+            <a href="" class="social-icon"><i class="fa-brands fa-facebook"></i></a>
+            <a href="" class="social-icon"><i class="fa-brands fa-twitter"></i></a>
+            <a href="" class="social-icon"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="" class="social-icon"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <div class="hero-content">
+            <div class="content-left">
+                <h1 class="hero-title">EXPLORE<br>DREAM<br>DESTINATION</h1>
+                <p class="hero-description">
+                    It encourages exploration of unfamiliar territories, embracing diverse cultures and landscapes, while pursuing the desired destination that captivates the heart and ignites a sense of wonder.
+                </p>
+                <button class="cta-button">BOOK NOW</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="hero-section" id="about-section">
+        <div class="hero-overlay"></div>
+        <div class="line"></div>
+        <div class="social-sidebar">
+            <a href="" class="social-icon"><i class="fa-brands fa-facebook"></i></a>
+            <a href="" class="social-icon"><i class="fa-brands fa-twitter"></i></a>
+            <a href="" class="social-icon"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="" class="fa-brands fa-youtube social-icon"></a>
+        </div>
+        
+        <div class="about-content">
+            <h1 class="about-title">ABOUT US</h1>
+            
+            <div class="about-description">
+                <p><strong>Welcome to Our Company!</strong> We are a team of passionate individuals dedicated to providing excellent services/products to our customers. Our mission is to <strong>provide the best experience</strong> for people traveling to different destinations around the world.</p>
+                <p>Our values include integrity, innovation, customer satisfaction, and teamwork. We believe in <strong>putting our customers first</strong> and working together to achieve our goals.</p>
+                <p>Feel free to explore our website to learn more about what we offer!</p>
+            </div>
+
+            <div class="team-section">
+                <h2 class="team-title">Our Team</h2>
+                <div class="team-grid">
+                    <div class="team-member">
+                        <div class="member-header">
+                            <div class="member-avatar">👤</div>
+                            <div class="member-info">
+                                <h3>John Doe</h3>
+                            </div>
+                        </div>
+                        <p class="member-description">John is responsible for...</p>
+                        <div class="member-role">CEO</div>
+                    </div>
+
+                    <div class="team-member">
+                        <div class="member-header">
+                            <div class="member-avatar">👤</div>
+                            <div class="member-info">
+                                <h3>Celina Thomas</h3>
+                            </div>
+                        </div>
+                        <p class="member-description">Celina Thomas is responsible for...</p>
+                        <div class="member-role">Team Lead</div>
+                    </div>
+
+                    <div class="team-member">
+                        <div class="member-header">
+                            <div class="member-avatar">👤</div>
+                            <div class="member-info">
+                                <h3>Mike Tysen</h3>
+                            </div>
+                        </div>
+                        <p class="member-description">Mike Tysen is responsible for...</p>
+                        <div class="member-role">Delivery Head</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="hero-section" id="contact-section">
+        <div class="hero-overlay"></div>
+        <div class="line"></div>
+        <div class="social-sidebar">
+            <a href="" class="social-icon"><i class="fa-brands fa-facebook"></i></a>
+            <a href="" class="social-icon"><i class="fa-brands fa-twitter"></i></a>
+            <a href="" class="social-icon"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="" class="social-icon"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <div class="contact-content">
+            <div class="content-left">
+                <h1 class="contact-title">CONTACT US</h1>
+                <p class="contact-subtitle">Get in touch</p>
+            </div>
+            
+            <div class="content-right">
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label class="form-label">Name</label>
+                        <input type="text" class="form-input" placeholder="Your name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="form-label">Email</label>
+                        <input type="email" class="form-input" placeholder="your.email@example.com" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="form-label">Phone</label>
+                        <input type="tel" class="form-input" placeholder="Your phone number">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="form-label">Message</label>
+                        <textarea class="form-input form-textarea" placeholder="Your message here..." required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="travel_recommendation.js"></script>
+</body>
+</html>
